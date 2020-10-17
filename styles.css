@@ -1,5 +1,5 @@
 body {
-    background: #FFE27A;
+    background: #FFFFE0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,7 +7,10 @@ body {
     background: #FAD85E;
     display: flex;
     margin: 10px;
-    padding: 10px; 
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 8px 10px #1F2CAD;
 
 }
 
@@ -15,9 +18,10 @@ body {
     width: 600px;
     border: 2px solid blue;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
-h1{
+h1 {
     color: #1F2CAD;
     text-align: center;
 }
@@ -25,4 +29,7 @@ h1{
 a {
     text-decoration: none;
     color: #1F2CAD;
+}
+.assignment a:hover {
+    color: #fff;
 }

@@ -1,9 +1,25 @@
 body {
-    background: #659DBD;
+    background: #754668;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.assignment {
+    background-color: #587D71;
+    color: #F9ECCC;
+    display: flex;
+    margin: 10px;
+    border: 3px;
+    border-radius: 5px;
+}
+
+.assignment img {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
 h1 {
-    color: white;
+    color: #F9ECCC;
     text-align: center;
 }
+
